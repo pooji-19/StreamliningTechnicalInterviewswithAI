@@ -1,6 +1,10 @@
 ## Streamlining Technical Interviews With AI
 
-![image](https://github.com/Nkalyankumar/Streamlining-Technical-Interviews-With-AI/assets/102470230/52b166ef-306a-4b2d-9a8f-a7f35f04ce83)
+
+
+https://github.com/pooji-19/StreamliningTechnicalInterviewswithAI/assets/119399328/27a0c96b-f689-4301-b1fe-fa1b701bf5c4
+
+
 
 # Goal Of Team
 Revolutionizing the interviewing process across various domains, including recruitment, paving the way for more insightful and meaningful interactions in the digital age.
