@@ -1,0 +1,25 @@
+.text-highlight{
+    font-size:135px;
+    color:var(--main-color);
+    /* margin-left: 150px; */
+}
+.main-heading{
+    font-size: 28px;
+    margin-top: 110px;
+    margin-left:70px ;
+    line-height: 53px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    column-gap: 10%;
+}
+/* @media  screen and (max-width:400px) {
+    .main-heading{
+        margin-left:20px;
+    }
+} */
+.logobesideimg{
+  margin-top:-100px;
+    width: 490px;
+    height: 480px;
+}

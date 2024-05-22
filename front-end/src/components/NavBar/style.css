@@ -1,0 +1,58 @@
+.header{
+    display:flex;
+    flex-direction: row;
+    justify-content:end;
+    column-gap: 60px;
+}
+.logo{
+    width:150px;
+    height:150px;
+}
+.nav-bar{
+    margin:10px;
+    /* make the position sticky on scroll */
+}
+    
+.signinbutton,.signupbutton{
+    height:30px;
+    width:70px;
+    background-color: white;
+    border-color: var(--main-color);
+    color: var(--main-color);
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 100px;
+}
+.signinbutton:hover{
+    cursor:pointer;
+    background-color: var(--main-color);
+    font-size: 16px;
+    font-weight: bold;
+    color:white;
+    text-transform: uppercase;
+}
+.signupbutton:hover{
+    cursor:pointer;
+    background-color: var(--main-color);
+    font-size: 16px;
+    font-weight: bold;
+    color:white;
+    text-transform: uppercase;
+}
+@media  screen and (max-width:400px) {
+    .header{
+        column-gap: 20px;
+    }
+    
+}
+.signupbutton{
+    width:80px;
+}
+.signupbutton:hover{
+    width:100px;
+}
+.signinbutton:hover{
+    width:80px;
+}
+    

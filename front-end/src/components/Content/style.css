@@ -1,0 +1,29 @@
+.secondimg{
+    width:400px;
+    height: 350px;
+}
+.mainmatter{
+    /* margin-top:10px; */
+    display: inline-flex;
+    column-gap: 20px;
+    background-color: var(--main-color);
+    margin:10px;
+}
+.inner-content{
+    margin-top: -20px;
+    text-align: center;
+    max-width:max-content;
+    color:white;
+    padding:10px;
+    font-size: 18px;
+    word-spacing: 1.5px;
+    letter-spacing: 0.5px;
+    line-height: 30px; 
+}
+.aboutheading{
+    font-size: var(--font-size);
+ text-align: center;
+ color:var(--main-color);
+ margin-top: 50px;
+ margin-bottom: 30px;
+}

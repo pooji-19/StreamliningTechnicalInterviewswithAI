@@ -1,0 +1,53 @@
+.footer{
+    display: flex;
+    background-color: var(--main-color);
+    color:white;
+    font-size: 18px;
+    width:100%;
+    position:fixed;
+    left:0;
+    bottom:0;
+   column-gap: 90px;
+}
+.footer-logo{
+    /* background-color: red; */
+    position: relative;
+    
+    width:120px;
+    height: 50px;
+}
+.footer-content{
+    margin-top:14px;
+    /* text-align: center; */
+    left:-300px;
+    font-size: 15px;
+}
+.contactusfooter{
+    text-decoration: none;
+    position: relative;
+    left:300px;
+    top:14px;
+    font-size:15px;
+    color:whitesmoke;
+}
+.emailfooter{
+color:whitesmoke;
+font-size: 15px;
+position: relative;
+left:-190px;
+top:12px;
+}
+.faqfooter{
+    /* text-decoration: none;
+    background-color: red;
+    left:-300px;
+    top:100px;
+    color:red; */
+    color:whitesmoke;
+    text-decoration: none;
+    left:-20px;
+    top:15px;
+    font-size: 15px;
+    position: relative;
+
+}

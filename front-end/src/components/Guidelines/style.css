@@ -1,0 +1,33 @@
+.guidelinesheader{
+    text-align: center;
+    color:rgba(127, 126, 255, 1);
+}
+.guidelinesmainblock{
+    display: flex;
+    /* text-align: center; */
+    color:var(--main-color);
+}
+
+.nextguidelines{
+    position: relative;
+    top:109%;
+    left:-20%;
+    height:30px;
+    width:70px;
+    background-color: white;
+    border-color: var(--main-color);
+    color: var(--main-color);
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 100px;
+
+}
+.nextguidelines:hover{
+    cursor:pointer;
+    background-color: var(--main-color);
+    font-size: 16px;
+    font-weight: bold;
+    color:white;
+    text-transform: uppercase;
+}

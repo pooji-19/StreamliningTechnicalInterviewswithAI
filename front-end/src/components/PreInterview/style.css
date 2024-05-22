@@ -1,0 +1,117 @@
+.header{
+    text-align: center;
+}
+.subblock1-circle{
+    position:absolute;
+    transform: rotate(90deg);
+    /* transform:translate(20deg); */
+    border-radius: 800px 800px 100px 0px;
+    /* width:900px;
+    height:950px; */
+    width:115%;
+    height:2100px;
+    background-color:var(--main-color);
+    margin-top:0px;
+    top:-800px;
+    left:-1150px; 
+}
+*{
+    margin-left: 0px;   
+    
+}
+.interviewpic{
+    position:relative;
+    left:91%;
+    top:-5%;
+   height:550px;
+   width:540px;
+}
+.block{
+    display: flex;
+    /* flex-wrap: wrap; */
+}
+.content{
+    position: absolute;
+   top:15%;
+   left:10px;
+    text-align:left;
+    color:aliceblue;
+}
+
+.ready{
+    position: relative;
+    left:120px;
+    top:50px; 
+    height:30px;
+    width:70px;
+    background-color: white;
+    border-color: var(--main-color);
+    color: var(--main-color);
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 100px;
+
+}
+.ready:hover{
+    cursor:pointer;
+    background-color: var(--main-color);
+    font-size: 16px;
+    font-weight: bold;
+    color:white;
+    text-transform: uppercase;
+}
+
+.button-upload{
+    position: relative;
+    left:240px;
+    width:100px;
+    height:30px;
+   
+    background-color: white;
+    border-color: var(--main-color);
+    color: var(--main-color);
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 100px;
+}
+.backpreinterview{
+    position: relative;
+    top:-60px;
+    left:-10px;
+    height:30px;
+    width:70px;
+    background-color: white;
+    border-color: var(--main-color);
+    color: var(--main-color);
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 100px;
+}
+.backpreinterview:hover{
+    cursor:pointer;
+    background-color: var(--main-color);
+    font-size: 16px;
+    font-weight: bold;
+    color:white;
+    text-transform: uppercase;
+}
+.selectfile{
+    width:120px;
+    height: 50px;
+    top:20px;
+    position: relative;
+    left:240px;
+    color:var(--main-color);
+
+}
+.button-upload:hover{
+    width:120px;
+    height: 40px;
+}
+.preinterviewhead1,.preinterviewhead2{
+    position: relative;
+    left:30px;
+}

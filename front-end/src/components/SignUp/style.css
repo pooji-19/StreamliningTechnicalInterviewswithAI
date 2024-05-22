@@ -1,0 +1,80 @@
+.body {
+    height: 770px;
+    color: var(--main-color);
+}
+::placeholder{
+    color:rgb(201, 191, 191);
+}
+
+.Container2{
+    text-align: center;
+    border:2px solid var(--main-color);
+    background-color: white;
+    position: absolute;
+    left:32%;
+    top: 20%;
+    color:white;
+    border-radius: 20px;
+    width:400px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+
+}
+.signupheading{
+    position: absolute;
+    top: 15px;
+    left: 450px;
+    /* text-align: end; */
+    font-size: 40px;
+    color:white;
+}
+
+.firstName, .lastName, .userName, .password, .cpassword{
+    font-size: 16px;
+    font-weight: 500;
+    text-align: left;
+    color: var(--main-color);
+}
+.cpassword{
+    position: relative;
+    top:24px;
+}
+
+.confirm{
+  position: relative;
+  left:-138px;
+}
+
+.input {
+  margin-left: 20px;
+    height: 28px;
+    width: 250px;
+    border-radius: 10px;
+    border: 1.6px solid var(--main-color);
+    font-size: 12px;
+}
+.submitsignup{
+   margin-top:32px;
+   height:30px;
+    width:70px;
+    background-color: white;
+    border-color: var(--main-color);
+    color: var(--main-color);
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 100px;
+
+}
+.submitsignup:hover{
+    cursor:pointer;
+    background-color: var(--main-color);
+    font-size: 16px;
+    font-weight: bold;
+    color:white;
+    width:80px;
+    text-transform: uppercase;
+}

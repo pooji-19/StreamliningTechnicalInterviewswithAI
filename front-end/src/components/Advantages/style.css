@@ -1,0 +1,49 @@
+.adv{
+    margin:20px;
+    border:2px solid var(--main-color);
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 40px;
+    color:var(--main-color);
+    /* line-height: 30px; */
+   text-align: center;
+   margin-bottom: 40px;
+   background-color: white;
+   left: 100px;
+
+}
+.adv:hover{
+    margin-left: 70px;
+    margin-right: 70px;
+    background-color: var(--main-color);
+    border:2px solid var(--main-color);
+    cursor: pointer;
+    color: white;
+    text-transform: uppercase;
+}
+.headingkeyfeatures{
+    font-size: var(--font-size);
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    color:var(--main-color);
+}
+
+.heading {
+    margin-left: 70px;
+    margin-top: 20px;
+}
+
+.arrow {
+    margin-right: 50px;
+    margin-top: 15px;
+    margin-left:30px;
+}
+
+.active {
+    height: 150px;
+}
+
+.text {
+    margin-left: 30px;
+}
